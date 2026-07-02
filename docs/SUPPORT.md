@@ -2,7 +2,7 @@
 
 [한국어](SUPPORT.ko.md)
 
-Quilla support is intentionally narrow for the 0.1.1 Windows pilot.
+Quilla support is intentionally narrow for the 0.2.0 Windows pilot.
 
 ## Included
 

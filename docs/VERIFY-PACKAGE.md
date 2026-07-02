@@ -41,11 +41,11 @@ Open `docs/PACKAGE-MANIFEST.json` and check:
 - Package integrity status is present and successful, when supplied by the
   release.
 
-For `v0.1.1`, the manifest should report:
+For `v0.2.0`, the manifest should report:
 
 ```text
 name: quilla
-version: 0.1.1
+version: 0.2.0
 platform: windows-x64
 ```
 
@@ -68,7 +68,7 @@ Compare the returned hash with the matching entry in
 
 ## Code Signing Status
 
-Quilla `0.1.1` Windows binaries are not code-signed. This is expected for the
+Quilla `0.2.0` Windows binaries are not code-signed. This is expected for the
 current release. Use the package manifest, GitHub release provenance, and
 SHA-256 hashes as the trust check.
 
@@ -80,7 +80,7 @@ Get-AuthenticodeSignature .\bin\quilla-extractor.exe
 Get-AuthenticodeSignature .\plugin\UEDapBridge\Binaries\Win64\UnrealEditor-UEDapBridge.dll
 ```
 
-Expected status for `0.1.1`:
+Expected status for `0.2.0`:
 
 ```text
 NotSigned

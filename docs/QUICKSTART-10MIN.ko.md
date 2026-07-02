@@ -2,7 +2,7 @@
 
 [English](QUICKSTART-10MIN.md)
 
-Windows + Unreal Editor 5.5에서 Quilla `0.1.1`을 가장 짧게 평가하는 수동
+Windows + Unreal Editor 5.5에서 Quilla `0.2.0`을 가장 짧게 평가하는 수동
 경로입니다.
 
 ## 1. 압축 해제

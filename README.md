@@ -16,7 +16,7 @@ user-facing documentation. It does not contain the private source tree.
 
 The current release target is:
 
-- Quilla `0.1.1`
+- Quilla `0.2.0`
 - Windows x64
 - Unreal Editor `5.5`
 - MCP-capable coding agents
@@ -146,14 +146,14 @@ after setup, not just that package files were copied successfully.
 
 Each package includes `docs/PACKAGE-MANIFEST.json` with file sizes, SHA-256
 hashes, build metadata, and the source commit used to generate the artifact.
-The current `0.1.1` Windows package is not code-signed; verify it with the
+The current `0.2.0` Windows package is not code-signed; verify it with the
 manifest hashes and the GitHub release artifact you downloaded.
 
-For `v0.1.1`, the package manifest should report:
+For `v0.2.0`, the package manifest should report:
 
 ```text
 name: quilla
-version: 0.1.1
+version: 0.2.0
 platform: windows-x64
 ```
 

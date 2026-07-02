@@ -2,7 +2,7 @@
 
 [한국어](QUICKSTART-10MIN.ko.md)
 
-This is the shortest manual path for evaluating Quilla `0.1.1` on Windows with
+This is the shortest manual path for evaluating Quilla `0.2.0` on Windows with
 Unreal Editor 5.5.
 
 ## 1. Extract

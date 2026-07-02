@@ -3,7 +3,7 @@
   "status": "breakpoint_hit_captured",
   "command": "blueprint.breakpointSmoke",
   "metadata": {
-    "quillaVersion": "0.1.1",
+    "quillaVersion": "0.2.0",
     "unrealEngine": {
       "version": "5.5.3",
       "source": "Build.version"

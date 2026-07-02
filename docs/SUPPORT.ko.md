@@ -2,7 +2,7 @@
 
 [English](SUPPORT.md)
 
-Quilla 0.1.1 Windows 파일럿의 지원 범위는 의도적으로 좁게 유지합니다.
+Quilla 0.2.0 Windows 파일럿의 지원 범위는 의도적으로 좁게 유지합니다.
 
 ## 포함
 
