@@ -61,6 +61,12 @@ Quilla/
     README.md
     LICENSE.txt
     PACKAGE-MANIFEST.json
+    SECURITY-MODEL.md
+    GETTING-STARTED.md
+    TROUBLESHOOTING.md
+    VERIFY-PACKAGE.md
+    UE-VERSION-MATRIX.md
+    AGENT-DEBUGGING-RECIPES.md
 ```
 
 패키지 폴더들은 함께 유지해야 합니다. first-run 도구는 이 구조를 기준으로
@@ -145,6 +151,21 @@ platform: windows-x64
 ```
 
 패키지를 설치하거나 내부에 재배포하기 전에 manifest를 확인하세요.
+
+## 문서
+
+- [문서 색인](docs/README.ko.md) - 공개 문서의 한국어 안내.
+- [Getting Started](docs/GETTING-STARTED.ko.md) - first-run setup, 성공 출력,
+  데모 경로.
+- [문제 해결](docs/TROUBLESHOOTING.ko.md) - setup, bridge, MCP, Blueprint smoke
+  실패 대응.
+- [패키지 검증](docs/VERIFY-PACKAGE.ko.md) - package layout과 manifest 확인.
+- [Unreal Engine 버전 매트릭스](docs/UE-VERSION-MATRIX.ko.md) - Unreal Engine
+  버전별 지원 상태와 검증 기준.
+- [에이전트 디버깅 레시피](docs/AGENT-DEBUGGING-RECIPES.ko.md) - 일반적인
+  디버깅 작업에서 권장되는 MCP tool 순서.
+- [보안 모델](docs/SECURITY-MODEL.ko.md) - 로컬 데이터 흐름, 권한, 안전한
+  평가 가이드.
 
 ## 보안
 

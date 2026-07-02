@@ -1,5 +1,7 @@
 # Verify Package
 
+[한국어](VERIFY-PACKAGE.ko.md)
+
 Quilla release packages include file hashes and build metadata so evaluators can
 confirm which artifact they received before running local debugging tools.
 

@@ -154,6 +154,7 @@ Use the manifest before installing or redistributing a package internally.
 
 ## Documentation
 
+- [Korean Documentation](docs/README.ko.md) - Korean map of public documents.
 - [Documentation Index](docs/README.md) - short map of public documents.
 - [Getting Started](docs/GETTING-STARTED.md) - first-run setup, expected
   success output, and the demo path.

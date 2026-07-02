@@ -1,5 +1,7 @@
 # Getting Started
 
+[한국어](GETTING-STARTED.ko.md)
+
 This guide is the shortest public path from a downloaded Quilla Windows package
 to a working local agent debugging setup.
 

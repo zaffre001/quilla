@@ -1,5 +1,7 @@
 # Agent Debugging Recipes
 
+[한국어](AGENT-DEBUGGING-RECIPES.ko.md)
+
 These recipes are written for MCP-capable coding agents using a local Quilla
 release package. Prefer compact status and diagnosis calls first, then request
 larger artifacts only when they are needed for a concrete debugging action.

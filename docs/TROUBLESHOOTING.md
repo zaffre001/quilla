@@ -1,5 +1,7 @@
 # Troubleshooting
 
+[한국어](TROUBLESHOOTING.ko.md)
+
 Use this guide when first-run setup, MCP connection, bridge communication, or the
 Blueprint smoke demo does not complete.
 

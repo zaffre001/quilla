@@ -1,5 +1,7 @@
 # Unreal Engine Version Matrix
 
+[한국어](UE-VERSION-MATRIX.ko.md)
+
 Quilla support is validated per Unreal Engine version. A version is supported
 only after the packaged plugin builds, the editor bridge answers, read-only
 inspection works, and the Blueprint breakpoint demo produces evidence.
