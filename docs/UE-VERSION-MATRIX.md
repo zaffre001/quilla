@@ -13,7 +13,8 @@ inspection works, and the Blueprint breakpoint demo produces evidence.
 | 5.5 | Supported target | Current Windows x64 release target. |
 | 5.4 | Not claimed | Do not treat as compatible until revalidated on a 5.4 install. |
 | 5.6 | Pending | Candidate for future validation; not a compatibility promise. |
-| 5.7+ | Pending | Requires the same validation gates before support is claimed. |
+| 5.7 | Pending | Requires the same validation gates before support is claimed. |
+| 5.8 | Pending | Validate how Quilla complements Epic MCP before support is claimed. |
 
 ## Support Criteria
 
@@ -32,6 +33,17 @@ does not claim compatibility.
 
 `Not claimed` means users should expect failures unless the release owner has
 provided version-specific validation evidence.
+
+## Epic MCP Relationship
+
+Epic's MCP work is expected to improve standard agent access to Unreal workflows.
+Quilla should still be evaluated as a runtime debugging truth layer: Blueprint
+breakpoint evidence, captured locals, bridge health, screenshots, and package
+provenance for agents that need to reason about the current editor session.
+
+For Unreal Engine 5.8 and later, support should not be claimed until the same
+validation gates pass and the release notes explain whether Quilla is replacing,
+complementing, or coexisting with any Epic-provided MCP plugin in that workflow.
 
 ## Evaluation Notes
 

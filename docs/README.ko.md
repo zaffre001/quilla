@@ -8,11 +8,14 @@ MCP 지원 코딩 에이전트를 대상으로 작성되어 있으며, 비공개
 
 ## 먼저 읽을 문서
 
-- [Getting Started](GETTING-STARTED.ko.md) - first-run setup과 데모 경로.
+- [10분 Quickstart](QUICKSTART-10MIN.ko.md) - 가장 짧은 수동 setup 및 smoke
+  demo 경로.
+- [Getting Started](GETTING-STARTED.ko.md) - 에이전트 중심 setup과 데모 경로.
 - [문제 해결](TROUBLESHOOTING.ko.md) - 일반적인 setup 및 runtime 실패.
 - [패키지 검증](VERIFY-PACKAGE.ko.md) - manifest와 package integrity 확인.
 - [보안 모델](SECURITY-MODEL.ko.md) - 로컬 데이터 흐름, 권한, 안전한 평가
   가이드.
+- [지원](SUPPORT.ko.md) - 지원 범위, 채널, 환불 기준.
 
 ## 참고 문서
 
@@ -20,6 +23,8 @@ MCP 지원 코딩 에이전트를 대상으로 작성되어 있으며, 비공개
   Unreal Engine 버전.
 - [에이전트 디버깅 레시피](AGENT-DEBUGGING-RECIPES.ko.md) - 일반적인 디버깅
   워크플로에서 권장되는 MCP tool 순서.
+- [Sample Blueprint Smoke JSON](SAMPLE-BLUEPRINT-SMOKE.json) - 익명 처리된
+  success artifact 형태.
 - [Security Model](SECURITY-MODEL.md) - 공개 보안 모델의 영어 문서.
 
 ## 패키지 파일

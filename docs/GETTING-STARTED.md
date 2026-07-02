@@ -8,6 +8,9 @@ to a working local agent debugging setup.
 Quilla is intended to be launched by an MCP-capable coding agent. Most users do
 not need to start `bin/quilla-mcp.exe` by hand.
 
+For a one-screen manual setup and smoke-demo path, use
+[10-minute Quickstart](QUICKSTART-10MIN.md).
+
 ## Prerequisites
 
 - Windows x64.

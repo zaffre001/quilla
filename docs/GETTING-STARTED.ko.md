@@ -8,6 +8,9 @@
 Quilla는 MCP 지원 코딩 에이전트가 실행하는 것을 기본 흐름으로 합니다. 대부분의
 사용자는 `bin/quilla-mcp.exe`를 직접 시작할 필요가 없습니다.
 
+한 화면짜리 수동 setup 및 smoke demo 경로가 필요하면
+[10분 Quickstart](QUICKSTART-10MIN.ko.md)를 사용하세요.
+
 ## 사전 준비
 
 - Windows x64.

@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "status": "breakpoint_hit_captured",
+  "command": "blueprint.breakpointSmoke",
+  "metadata": {
+    "quillaVersion": "0.1.1",
+    "unrealEngine": {
+      "version": "5.5.3",
+      "source": "Build.version"
+    },
+    "projectPath": "C:\\Redacted\\Project\\ExampleGame.uproject",
+    "pluginBinary": {
+      "path": "C:\\Redacted\\Project\\Plugins\\UEDapBridge\\Binaries\\Win64\\UnrealEditor-UEDapBridge.dll",
+      "sha256": "b19e5bbf881ddb92c15fdd7afb76c75033f672901e71543b923a4a126c1bfbd7"
+    }
+  },
+  "inputs": {
+    "blueprintPath": "/Game/UE_DAP/BP_UEDapSmoke_Example.BP_UEDapSmoke_Example",
+    "nodeId": "BD50588D-41AE-64F3-089E-1EBB63EAC615",
+    "hitTimeoutSeconds": 60
+  },
+  "result": {
+    "callStack": {
+      "ok": true,
+      "data": {
+        "frames": [
+          {
+            "blueprintClass": "BP_UEDapSmoke_Example_C",
+            "functionName": "ExecuteUbergraph_BP_UEDapSmoke_Example",
+            "nodeId": "BD50588D-41AE-64F3-089E-1EBB63EAC615",
+            "sourceGraph": "EventGraph",
+            "variables": [
+              {
+                "name": "self",
+                "type": "BP_UEDapSmoke_Example_C",
+                "source": "objectReference",
+                "objectReference": true,
+                "truncated": true,
+                "value": "PersistentLevel.BP_UEDapSmoke_Example_C_0"
+              },
+              {
+                "name": "EntryPoint",
+                "type": "int32",
+                "source": "property",
+                "value": "117"
+              },
+              {
+                "name": "pin:execute",
+                "type": "exec",
+                "source": "nodePin",
+                "value": "<unavailable>",
+                "unavailableReason": "Runtime pin value is not materialized in the Blueprint VM frame."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "worldSnapshot": {
+      "ok": true,
+      "status": "executed"
+    },
+    "screenshotPath": "C:\\Redacted\\Quilla\\artifacts\\blueprint-breakpoint-smoke.png"
+  }
+}

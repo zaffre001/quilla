@@ -25,6 +25,10 @@ The package should not contain private source folders, tests, fixtures, local
 build directories, or debug symbols unless the release owner explicitly provided
 them.
 
+The customer MCP runtime is `bin/quilla-mcp.exe`. Private TypeScript server
+source and built `server/lib` outputs are development references and should not
+be present in the public release package.
+
 ## Manifest Fields
 
 Open `docs/PACKAGE-MANIFEST.json` and check:
@@ -37,11 +41,11 @@ Open `docs/PACKAGE-MANIFEST.json` and check:
 - Package integrity status is present and successful, when supplied by the
   release.
 
-For `v0.1.0`, the manifest should report:
+For `v0.1.1`, the manifest should report:
 
 ```text
 name: quilla
-version: 0.1.0
+version: 0.1.1
 platform: windows-x64
 ```
 
@@ -61,6 +65,26 @@ Compare the returned hash with the matching entry in
 - packaged `UEDapBridge` binaries
 - `tools/quilla-first-run.ps1`
 - `tools/agent-debugging-demo.ps1`
+
+## Code Signing Status
+
+Quilla `0.1.1` Windows binaries are not code-signed. This is expected for the
+current release. Use the package manifest, GitHub release provenance, and
+SHA-256 hashes as the trust check.
+
+PowerShell check:
+
+```powershell
+Get-AuthenticodeSignature .\bin\quilla-mcp.exe
+Get-AuthenticodeSignature .\bin\quilla-extractor.exe
+Get-AuthenticodeSignature .\plugin\UEDapBridge\Binaries\Win64\UnrealEditor-UEDapBridge.dll
+```
+
+Expected status for `0.1.1`:
+
+```text
+NotSigned
+```
 
 ## Handling Mismatches
 

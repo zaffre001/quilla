@@ -16,7 +16,7 @@ user-facing documentation. It does not contain the private source tree.
 
 The current release target is:
 
-- Quilla `0.1.0`
+- Quilla `0.1.1`
 - Windows x64
 - Unreal Editor `5.5`
 - MCP-capable coding agents
@@ -106,6 +106,11 @@ Successful setup should report:
 ready for agent debugging
 ```
 
+For the shortest manual path, use
+[10-minute Quickstart](docs/QUICKSTART-10MIN.md). It gives the first-run command,
+smoke-demo command, expected artifacts, and failure-to-next-action table on one
+page.
+
 Manual fallback, if you are not using an agent yet:
 
 ```powershell
@@ -141,12 +146,14 @@ after setup, not just that package files were copied successfully.
 
 Each package includes `docs/PACKAGE-MANIFEST.json` with file sizes, SHA-256
 hashes, build metadata, and the source commit used to generate the artifact.
+The current `0.1.1` Windows package is not code-signed; verify it with the
+manifest hashes and the GitHub release artifact you downloaded.
 
-For `v0.1.0`, the package manifest should report:
+For `v0.1.1`, the package manifest should report:
 
 ```text
 name: quilla
-version: 0.1.0
+version: 0.1.1
 platform: windows-x64
 ```
 
@@ -158,6 +165,8 @@ Use the manifest before installing or redistributing a package internally.
 - [Documentation Index](docs/README.md) - short map of public documents.
 - [Getting Started](docs/GETTING-STARTED.md) - first-run setup, expected
   success output, and the demo path.
+- [10-minute Quickstart](docs/QUICKSTART-10MIN.md) - one-screen setup and smoke
+  demo path.
 - [Troubleshooting](docs/TROUBLESHOOTING.md) - common setup, bridge, MCP, and
   Blueprint smoke failures.
 - [Verify Package](docs/VERIFY-PACKAGE.md) - package layout and manifest checks.
@@ -167,6 +176,7 @@ Use the manifest before installing or redistributing a package internally.
   tool order for common debugging tasks.
 - [Security Model](docs/SECURITY-MODEL.md) - local data flow, permissions, and
   safe evaluation guidance.
+- [Support](docs/SUPPORT.md) - support scope, channel, and refund rule.
 
 ## Security
 
@@ -182,6 +192,11 @@ package integrity, and safe evaluation guidance. Korean readers can use
 
 Quilla is proprietary software. This distribution repository is intentionally
 limited to release artifacts and user-facing documentation.
+
+The public runtime is `bin/quilla-mcp.exe`, the Rust native MCP server included
+in release packages. Private TypeScript server source and built `server/lib`
+outputs are development references only; they are not required for customers and
+should not be expected in public packages.
 
 Quilla was originally planned as a source-available project. After prior
 experiences where key implementation details from earlier tools were copied

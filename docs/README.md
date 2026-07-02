@@ -9,11 +9,14 @@ notes.
 
 ## Start Here
 
-- [Getting Started](GETTING-STARTED.md) - first-run setup and demo path.
+- [10-minute Quickstart](QUICKSTART-10MIN.md) - shortest manual setup and smoke
+  demo path.
+- [Getting Started](GETTING-STARTED.md) - agent-first setup and demo path.
 - [Troubleshooting](TROUBLESHOOTING.md) - common setup and runtime failures.
 - [Verify Package](VERIFY-PACKAGE.md) - manifest and package integrity checks.
 - [Security Model](SECURITY-MODEL.md) - local data flow, permissions, and safe
   evaluation guidance.
+- [Support](SUPPORT.md) - support scope, channel, and refund rule.
 
 ## Reference
 
@@ -21,6 +24,8 @@ notes.
   Unreal Engine versions.
 - [Agent Debugging Recipes](AGENT-DEBUGGING-RECIPES.md) - recommended MCP tool
   order for common debugging workflows.
+- [Sample Blueprint Smoke JSON](SAMPLE-BLUEPRINT-SMOKE.json) - sanitized success
+  artifact shape.
 - [Korean Security Model](SECURITY-MODEL.ko.md) - Korean copy of the public
   security model.
 
